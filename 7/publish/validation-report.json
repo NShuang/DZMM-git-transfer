@@ -1,0 +1,78 @@
+{
+  "isRunnable": true,
+  "checks": [
+    {
+      "id": "runtime-shell-mode",
+      "passed": true,
+      "message": "The runtime shell matches the selected export mode.",
+      "details": "Shell kind: multi_file; build hash: 6876edeb23538c8e"
+    },
+    {
+      "id": "react-runtime",
+      "passed": true,
+      "message": "The exported runtime includes the React bootstrap payload."
+    },
+    {
+      "id": "game-data-injection",
+      "passed": true,
+      "message": "The exported runtime includes injected game bootstrap data.",
+      "details": "Storage key: better-ai-performance:export:dzmm:7682efa5-38e5-43df-9643-404a6041b0d6:1779449778153"
+    },
+    {
+      "id": "runtime-ai-secrets",
+      "passed": true,
+      "message": "The exported runtime does not include test or player API keys.",
+      "details": "No non-empty API key fields detected in the sanitized payload."
+    },
+    {
+      "id": "design-system",
+      "passed": true,
+      "message": "The exported runtime includes the shared design tokens."
+    },
+    {
+      "id": "start-page-schema",
+      "passed": true,
+      "message": "The exported runtime includes a valid visual start page schema or a compatible legacy start page.",
+      "details": "Desktop components: 7; mobile components: 7"
+    },
+    {
+      "id": "framer-motion",
+      "passed": true,
+      "message": "The exported runtime includes the motion layer used by preview."
+    },
+    {
+      "id": "dzmm-platform",
+      "passed": true,
+      "message": "The DZMM secure platform adapter is injected into the export shell."
+    },
+    {
+      "id": "dzmm-functions",
+      "passed": true,
+      "message": "DZMM export includes valid root-level serverless functions.",
+      "details": ""
+    },
+    {
+      "id": "dzmm-publish-ai-boundary",
+      "passed": true,
+      "message": "DZMM publish files do not expose browser-side prompt orchestration or direct completions calls."
+    },
+    {
+      "id": "dzmm-publish-private-prompts",
+      "passed": true,
+      "message": "DZMM publish files do not contain private prompt text collected from the runtime snapshot."
+    },
+    {
+      "id": "html-structure",
+      "passed": true,
+      "message": "The exported HTML shell is structurally complete."
+    },
+    {
+      "id": "image-assets-separated",
+      "passed": true,
+      "message": "图片载荷已与主引导 JSON 分离。"
+    }
+  ],
+  "warnings": [],
+  "platform": "dzmm",
+  "mode": "split_files"
+}
