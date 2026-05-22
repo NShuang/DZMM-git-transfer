@@ -1,0 +1,19 @@
+# 默认忽略所有内容，避免误提交无关文件
+*
+
+# 允许 Git 继续向下遍历目录
+!*/
+
+# 保留仓库配置与说明文件
+!.gitignore
+!.gitattributes
+!README.md
+
+# 仅纳入每个游戏项目目录中的发布产物与云函数代码
+!**/publish/
+!**/publish/**
+!**/functions/
+!**/functions/**
+
+# 压缩包始终不进入仓库
+*.zip
