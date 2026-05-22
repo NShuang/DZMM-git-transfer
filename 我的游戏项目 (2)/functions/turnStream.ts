@@ -152,23 +152,95 @@ function buildSystemPrompt(snapshot, session, body) {
   ].filter((part) => part !== "").join("\n");
 }
 
+function rawText(value) {
+  return typeof value === "string" ? value : "";
+}
+
 function normalizeCompletionText(result) {
   if (typeof result === "string") return result.trim();
   if (result && typeof result.text === "string") return result.text.trim();
   if (result && typeof result.content === "string") return result.content.trim();
+  if (result && typeof result.delta === "string") return result.delta.trim();
   const choice = result && Array.isArray(result.choices) ? result.choices[0] : null;
+  if (choice && choice.delta && typeof choice.delta.content === "string") return choice.delta.content.trim();
   if (choice && choice.message && typeof choice.message.content === "string") return choice.message.content.trim();
   if (choice && typeof choice.text === "string") return choice.text.trim();
   return "";
 }
 
+function extractCompletionFragment(result) {
+  if (typeof result === "string") return result;
+  if (result && typeof result.delta === "string") return result.delta;
+  if (result && typeof result.text === "string") return result.text;
+  if (result && typeof result.content === "string") return result.content;
+  const choice = result && Array.isArray(result.choices) ? result.choices[0] : null;
+  if (choice && choice.delta && typeof choice.delta.content === "string") return choice.delta.content;
+  if (choice && choice.message && typeof choice.message.content === "string") return choice.message.content;
+  if (choice && typeof choice.text === "string") return choice.text;
+  return "";
+}
+
 function splitText(value, size) {
   const chunks = [];
-  const normalized = text(value);
+  const normalized = rawText(value);
   for (let index = 0; index < normalized.length; index += size) {
     chunks.push(normalized.slice(index, index + size));
   }
-  return chunks.length ? chunks : [""];
+  return chunks.length ? chunks : [];
+}
+
+function isAsyncIterable(value) {
+  return Boolean(value) && typeof value[Symbol.asyncIterator] === "function";
+}
+
+function applyCompletionFragment(previousText, value) {
+  const incoming = extractCompletionFragment(value);
+  if (!incoming) {
+    return { delta: "", accumulatedText: previousText };
+  }
+  if (previousText && incoming.startsWith(previousText)) {
+    return { delta: incoming.slice(previousText.length), accumulatedText: incoming };
+  }
+  return { delta: incoming, accumulatedText: previousText + incoming };
+}
+
+function toPublicErrorMessage(code) {
+  switch (code) {
+    case "quota_exceeded":
+      return "当前账号 AI 调用额度不足，请稍后再试。";
+    case "function_not_published":
+      return "DZMM 服务端函数尚未发布，请重新导出并发布游戏。";
+    case "invocation_token_invalid":
+      return "DZMM 调用令牌已失效，请刷新页面后重试。";
+    case "empty_completion":
+      return "AI 未返回可显示的正文，请稍后再试。";
+    case "function_error":
+      return "DZMM 服务端 AI 调用失败，请稍后再试。";
+    default:
+      return "DZMM 服务端调用失败，请稍后再试。";
+  }
+}
+
+function normalizeError(error, fallbackCode) {
+  const code = error && typeof error.code === "string" && error.code.trim() ? error.code.trim() : fallbackCode;
+  const message = error && typeof error.message === "string" && error.message.trim() ? error.message.trim() : toPublicErrorMessage(code);
+  return { code, message };
+}
+
+function createErrorEvent(error, fallbackCode, fallbackMessage) {
+  const normalized = normalizeError(error, fallbackCode || "function_error");
+  return {
+    type: "error",
+    code: normalized.code,
+    message: normalized.message || fallbackMessage || toPublicErrorMessage(normalized.code),
+  };
+}
+
+function createCompletionState() {
+  return {
+    accumulatedText: "",
+    finalResult: null,
+  };
 }
 
 function buildContextSnapshot(body, session) {
@@ -203,26 +275,117 @@ function buildPreThink(body, session) {
   };
 }
 
-async function runTurn(body, ctx) {
-  const snapshot = PRIVATE_TURN_PAYLOAD.snapshot;
-  const session = isRecord(body.session) ? body.session : PRIVATE_TURN_PAYLOAD.initialSession;
-  const params = resolveParameters(snapshot);
-  const latestUserText = text(body.latestUserMessage && body.latestUserMessage.text);
-  const requestMessages = [
-    { role: "system", content: buildSystemPrompt(snapshot, session, body) },
-    { role: "user", content: latestUserText || "Continue the story." },
-  ];
-  const startedAt = Date.now();
-  const completion = await ctx.completions({
-    model: resolveModel(snapshot),
-    messages: requestMessages,
-    maxTokens: params.maxTokens,
-    temperature: params.temperature,
-    topP: params.topP,
-    frequencyPenalty: params.frequencyPenalty,
-    presencePenalty: params.presencePenalty,
-  });
-  const textOutput = normalizeCompletionText(completion) || "...";
+async function* streamCompletion(ctx, payload, completionState) {
+  const queue = [];
+  let wake = null;
+  let settled = false;
+  let completionError = null;
+  const notify = () => {
+    if (wake) {
+      const resume = wake;
+      wake = null;
+      resume();
+    }
+  };
+  const pushValue = (value) => {
+    const next = applyCompletionFragment(completionState.accumulatedText, value);
+    completionState.accumulatedText = next.accumulatedText;
+    if (next.delta) {
+      queue.push({ chunk: next.delta, accumulatedText: completionState.accumulatedText, source: "model" });
+      notify();
+    }
+  };
+  const ensureFallbackChunks = (value) => {
+    const normalized = normalizeCompletionText(value);
+    if (!normalized || completionState.accumulatedText) {
+      return;
+    }
+    let replay = "";
+    for (const chunk of splitText(normalized, 96)) {
+      replay += chunk;
+      completionState.accumulatedText = replay;
+      queue.push({ chunk, accumulatedText: replay, source: "model" });
+    }
+    notify();
+  };
+  const finish = (value) => {
+    if (value !== undefined) {
+      completionState.finalResult = value;
+    }
+    settled = true;
+    notify();
+  };
+  const fail = (error) => {
+    completionError = error;
+    settled = true;
+    notify();
+  };
+  const consumeAsync = async (iterable) => {
+    for await (const item of iterable) {
+      pushValue(item);
+      completionState.finalResult = item;
+    }
+    if (!completionState.finalResult) {
+      completionState.finalResult = { text: completionState.accumulatedText };
+    }
+  };
+  try {
+    if (!ctx || typeof ctx.completions !== "function") {
+      throw Object.assign(new Error("ctx_completions_unavailable"), { code: "function_error" });
+    }
+    if (ctx.completions.length >= 2) {
+      Promise.resolve(ctx.completions(payload, function (value, done, finalResult) {
+        pushValue(value);
+        if (done === true) {
+          finish(finalResult !== undefined ? finalResult : { text: completionState.accumulatedText });
+        }
+      }))
+        .then(async (result) => {
+          if (settled) {
+            return;
+          }
+          if (isAsyncIterable(result)) {
+            await consumeAsync(result);
+            finish(completionState.finalResult);
+            return;
+          }
+          if (result !== undefined) {
+            completionState.finalResult = result;
+            ensureFallbackChunks(result);
+          }
+          if (!settled) {
+            finish(completionState.finalResult !== null ? completionState.finalResult : { text: completionState.accumulatedText });
+          }
+        })
+        .catch(fail);
+    } else {
+      const result = await ctx.completions(payload);
+      if (isAsyncIterable(result)) {
+        await consumeAsync(result);
+      } else {
+        completionState.finalResult = result;
+        ensureFallbackChunks(result);
+      }
+      finish(completionState.finalResult !== null ? completionState.finalResult : { text: completionState.accumulatedText });
+    }
+  } catch (error) {
+    fail(error);
+  }
+  while (!settled || queue.length > 0) {
+    if (queue.length === 0) {
+      await new Promise((resolve) => {
+        wake = resolve;
+      });
+      continue;
+    }
+    yield queue.shift();
+  }
+  if (completionError) {
+    throw completionError;
+  }
+}
+
+function buildTurnResult(body, session, contextSnapshot, preThink, textOutput, stageDebug) {
   const assistantMessage = {
     id: createId("msg-dzmm-assistant"),
     role: "assistant",
@@ -231,14 +394,6 @@ async function runTurn(body, ctx) {
     sceneId: session && session.currentSceneId ? session.currentSceneId : undefined,
     metadata: { generatedBy: "dzmm-serverless", requestId: body.requestId || "" },
   };
-  const stageDebug = [{
-    stage: "response_generation",
-    model: resolveModel(snapshot),
-    status: "success",
-    source: "model",
-    durationMs: Date.now() - startedAt,
-  }];
-  const preThink = buildPreThink(body, session);
   const responseGeneration = {
     text: textOutput,
     source: "model",
@@ -258,7 +413,7 @@ async function runTurn(body, ctx) {
   const pipelineResult = {
     requestId: body.requestId || assistantMessage.id,
     contextState: body.contextState || null,
-    contextSnapshot: buildContextSnapshot(body, session),
+    contextSnapshot,
     preThink,
     responseGeneration,
     finalAnalysis,
@@ -298,14 +453,59 @@ async function runTurn(body, ctx) {
 
 export default async function* turnStream(request, ctx) {
   const body = request && request.body ? request.body : {};
+  const snapshot = PRIVATE_TURN_PAYLOAD.snapshot;
   const session = isRecord(body.session) ? body.session : PRIVATE_TURN_PAYLOAD.initialSession;
-  yield { type: "context", contextState: null, contextSnapshot: buildContextSnapshot(body, session) };
-  const turn = await runTurn(body, ctx);
-  let accumulatedText = "";
-  for (const chunk of splitText(turn.text, 96)) {
-    accumulatedText += chunk;
-    yield { type: "narrative_chunk", chunk, accumulatedText, displayText: accumulatedText, source: "model" };
+  const contextSnapshot = buildContextSnapshot(body, session);
+  const preThink = buildPreThink(body, session);
+  yield { type: "context", contextState: body.contextState || null, contextSnapshot };
+  yield {
+    type: "pre_think_committed",
+    preThink,
+    session,
+    contextState: body.contextState || null,
+    contextSnapshot,
+  };
+  const params = resolveParameters(snapshot);
+  const latestUserText = text(body.latestUserMessage && body.latestUserMessage.text);
+  const requestMessages = [
+    { role: "system", content: buildSystemPrompt(snapshot, session, body) },
+    { role: "user", content: latestUserText || "Continue the story." },
+  ];
+  const startedAt = Date.now();
+  const completionState = createCompletionState();
+  try {
+    for await (const part of streamCompletion(ctx, {
+      model: resolveModel(snapshot),
+      messages: requestMessages,
+      maxTokens: params.maxTokens,
+      temperature: params.temperature,
+      topP: params.topP,
+      frequencyPenalty: params.frequencyPenalty,
+      presencePenalty: params.presencePenalty,
+    }, completionState)) {
+      yield {
+        type: "narrative_chunk",
+        chunk: part.chunk,
+        accumulatedText: part.accumulatedText,
+        displayText: part.accumulatedText,
+        source: part.source,
+      };
+    }
+    const textOutput = normalizeCompletionText(completionState.finalResult) || completionState.accumulatedText;
+    if (!textOutput) {
+      throw Object.assign(new Error("empty_completion"), { code: "empty_completion" });
+    }
+    const stageDebug = [{
+      stage: "response_generation",
+      model: resolveModel(snapshot),
+      status: "success",
+      source: "model",
+      durationMs: Date.now() - startedAt,
+    }];
+    const turn = buildTurnResult(body, session, contextSnapshot, preThink, textOutput, stageDebug);
+    yield { type: "response_completed", output: turn.pipelineResult.responseGeneration, rawText: turn.text, messages: turn.messages, parseWarnings: [], debug: turn.stageDebug[0] };
+    yield { type: "turn_completed", result: turn.result };
+  } catch (error) {
+    yield createErrorEvent(error, "function_error", "DZMM 服务端 AI 调用失败，请稍后再试。");
   }
-  yield { type: "response_completed", output: turn.pipelineResult.responseGeneration, rawText: turn.text, messages: turn.messages, parseWarnings: [], debug: turn.stageDebug[0] };
-  yield { type: "turn_completed", result: turn.result };
 }

@@ -5,7 +5,7 @@
       "id": "runtime-shell-mode",
       "passed": true,
       "message": "The runtime shell matches the selected export mode.",
-      "details": "Shell kind: multi_file; build hash: 296a64bcea2690be"
+      "details": "Shell kind: multi_file; build hash: 16461ad4c8fc6112"
     },
     {
       "id": "react-runtime",
@@ -16,7 +16,7 @@
       "id": "game-data-injection",
       "passed": true,
       "message": "The exported runtime includes injected game bootstrap data.",
-      "details": "Storage key: better-ai-performance:export:dzmm:7682efa5-38e5-43df-9643-404a6041b0d6:1779438300645"
+      "details": "Storage key: better-ai-performance:export:dzmm:7682efa5-38e5-43df-9643-404a6041b0d6:1779439814951"
     },
     {
       "id": "runtime-ai-secrets",
