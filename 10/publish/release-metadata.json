@@ -1,0 +1,8 @@
+{
+  "kind": "dzmm_publish_download",
+  "releaseId": "release-e4f075dd-7a1f-497c-813f-6783130aa3b5",
+  "routeSlug": "game-1",
+  "version": "0.3.2",
+  "backendBaseUrl": "http://localhost:3000",
+  "generatedAt": 1780319830338
+}
