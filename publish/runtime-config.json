@@ -1,0 +1,3147 @@
+{
+  "generatedAt": 1782305510802,
+  "release": {
+    "id": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+    "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+    "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+    "target": "dzmm_publish",
+    "status": "published",
+    "channel": "production",
+    "createdByUserId": "cmmg2jan70001s8vcbcs9dctj",
+    "artifact": {
+      "target": "dzmm_publish",
+      "runtimeProtocol": "dzmm_completion_bridge",
+      "entryUrl": "./index.html",
+      "runtimeConfigUrl": "./runtime-config.json",
+      "staticAssetBaseUrl": "./assets",
+      "releaseManifestUrl": "./resource-manifest.json",
+      "mediaManifest": {
+        "version": "phase5-release-media-manifest-v1",
+        "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+        "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+        "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+        "target": "dzmm_publish",
+        "routeSlug": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+        "generatedAt": 1782305504836,
+        "pathPolicy": {
+          "target": "dzmm_publish",
+          "assetBaseUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets",
+          "releaseManifestUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/resource-manifest.json",
+          "entryDocumentCacheControl": "no-store",
+          "runtimeConfigCacheControl": "no-store",
+          "staticAssetsCacheControl": "public, max-age=31536000, immutable",
+          "invalidationStrategy": "release_path_and_content_digest"
+        },
+        "files": [
+          {
+            "fileId": "file-48b27a58046bea16",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/48b27a58046bea165035dc22b78361bbc667aa872e420fbda07d35ad0dbc22c1.png",
+            "digest": "48b27a58046bea165035dc22b78361bbc667aa872e420fbda07d35ad0dbc22c1",
+            "mimeType": "image/png",
+            "sizeBytes": 1634708,
+            "width": 1086,
+            "height": 1448,
+            "fileName": "img-1781311525160-bzc9-48b27a58046b.png",
+            "relativePath": "managed/img-1781311525160-bzc9-48b27a58046b.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-59490251f75281a6",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/59490251f75281a680a209f7b6308dd847b539379ec9645f92f6837b8dedc440.png",
+            "digest": "59490251f75281a680a209f7b6308dd847b539379ec9645f92f6837b8dedc440",
+            "mimeType": "image/png",
+            "sizeBytes": 2282398,
+            "width": 1440,
+            "height": 1920,
+            "fileName": "img-1781701263682-2e4l-59490251f752.png",
+            "relativePath": "managed/img-1781701263682-2e4l-59490251f752.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-2abe8a5649d5c258",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/2abe8a5649d5c258592b378ce70deeb21b49dd33c8f711ebbc5a556a95397e1b.png",
+            "digest": "2abe8a5649d5c258592b378ce70deeb21b49dd33c8f711ebbc5a556a95397e1b",
+            "mimeType": "image/png",
+            "sizeBytes": 1897307,
+            "width": 1086,
+            "height": 1448,
+            "fileName": "img-1781701267118-x16a-2abe8a5649d5.png",
+            "relativePath": "managed/img-1781701267118-x16a-2abe8a5649d5.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-d76247ba3d340fbe",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/d76247ba3d340fbeb09d2f0c8f2a5710fc9e7164589bfbf52468684b34691662.png",
+            "digest": "d76247ba3d340fbeb09d2f0c8f2a5710fc9e7164589bfbf52468684b34691662",
+            "mimeType": "image/png",
+            "sizeBytes": 1742097,
+            "width": 1086,
+            "height": 1448,
+            "fileName": "img-1781701281234-x6q7-d76247ba3d34.png",
+            "relativePath": "managed/img-1781701281234-x6q7-d76247ba3d34.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-b8a1eaecf648c51b",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/b8a1eaecf648c51bb5fa87ec857754145f1428841976814e479b244503489d82.png",
+            "digest": "b8a1eaecf648c51bb5fa87ec857754145f1428841976814e479b244503489d82",
+            "mimeType": "image/png",
+            "sizeBytes": 1652066,
+            "width": 1086,
+            "height": 1448,
+            "fileName": "img-1781701285022-4yuu-b8a1eaecf648.png",
+            "relativePath": "managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-924652ff29eeb9ab",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/924652ff29eeb9abe38fcefc45a2e67e38ed8828e2e176f32f1c3a1e1e56422f.png",
+            "digest": "924652ff29eeb9abe38fcefc45a2e67e38ed8828e2e176f32f1c3a1e1e56422f",
+            "mimeType": "image/png",
+            "sizeBytes": 12298239,
+            "width": 3543,
+            "height": 4724,
+            "fileName": "img-1781701288903-j7qk-924652ff29ee.png",
+            "relativePath": "managed/img-1781701288903-j7qk-924652ff29ee.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701288903-j7qk-924652ff29ee.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          },
+          {
+            "fileId": "file-9f47e2cb1281b294",
+            "storageProvider": "release_bundle",
+            "objectKey": "objects/images/9f47e2cb1281b294e349cba558363f68dfbeb5a8fa3bbd2e5cd0ce6f4c5e9fbc.png",
+            "digest": "9f47e2cb1281b294e349cba558363f68dfbeb5a8fa3bbd2e5cd0ce6f4c5e9fbc",
+            "mimeType": "image/png",
+            "sizeBytes": 12105619,
+            "width": 3543,
+            "height": 4724,
+            "fileName": "img-1781701291266-zj6l-9f47e2cb1281.png",
+            "relativePath": "managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+            "cacheControl": "public, max-age=31536000, immutable"
+          }
+        ],
+        "references": [
+          {
+            "refId": "ref-9a56a3eca103c0ba",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781102727814-kue1.avatar",
+            "assetId": "pc-1781102727814-kue1-runtime-avatar",
+            "fileId": "file-9f47e2cb1281b294",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-2c8f4491a8844617",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781102727814-kue1.portraitOptions.img-1781701288903-j7qk",
+            "assetId": "img-1781701288903-j7qk",
+            "fileId": "file-924652ff29eeb9ab",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701288903-j7qk-924652ff29ee.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-a26f484978b11cd3",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781102727814-kue1.portraitOptions.img-1781701291266-zj6l",
+            "assetId": "img-1781701291266-zj6l",
+            "fileId": "file-9f47e2cb1281b294",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-d8c2b50660d2d946",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781108205705-73lu.avatar",
+            "assetId": "pc-1781108205705-73lu-runtime-avatar",
+            "fileId": "file-48b27a58046bea16",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-73d526a0a34debe0",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781108205705-73lu.portraitOptions.img-1781311525160-bzc9",
+            "assetId": "img-1781311525160-bzc9",
+            "fileId": "file-48b27a58046bea16",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-f0d9f4c3643c28f6",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781108224336-00ui.avatar",
+            "assetId": "pc-1781108224336-00ui-runtime-avatar",
+            "fileId": "file-59490251f75281a6",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-c6444a0b269dfd26",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781108224336-00ui.portraitOptions.img-1781701263682-2e4l",
+            "assetId": "img-1781701263682-2e4l",
+            "fileId": "file-59490251f75281a6",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-9883ee6bda42dda4",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781108231147-pw36.avatar",
+            "assetId": "pc-1781108231147-pw36-runtime-avatar",
+            "fileId": "file-2abe8a5649d5c258",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-36a72779b338d220",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781108231147-pw36.portraitOptions.img-1781701267118-x16a",
+            "assetId": "img-1781701267118-x16a",
+            "fileId": "file-2abe8a5649d5c258",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-985f3ff8b2fa1157",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781108459951-dgit.avatar",
+            "assetId": "pc-1781108459951-dgit-runtime-avatar",
+            "fileId": "file-b8a1eaecf648c51b",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-b9d28b902649bb0c",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781108459951-dgit.portraitOptions.img-1781701285022-4yuu",
+            "assetId": "img-1781701285022-4yuu",
+            "fileId": "file-b8a1eaecf648c51b",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-bff59c50e8a4ce82",
+            "status": "ready",
+            "usage": "character_avatar",
+            "sourceKind": "project_character_avatar",
+            "sourcePath": "characters.pc-1781108473546-q2fb.avatar",
+            "assetId": "pc-1781108473546-q2fb-runtime-avatar",
+            "fileId": "file-d76247ba3d340fbe",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-31a77c8fa6595b87",
+            "status": "ready",
+            "usage": "character_sprite",
+            "sourceKind": "character_sprite",
+            "sourcePath": "characters.pc-1781108473546-q2fb.portraitOptions.img-1781701281234-x6q7",
+            "assetId": "img-1781701281234-x6q7",
+            "fileId": "file-d76247ba3d340fbe",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-cd86cbb650539d45",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781311525160-bzc9",
+            "assetId": "img-1781311525160-bzc9",
+            "fileId": "file-48b27a58046bea16",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-b0189febf71c7621",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701263682-2e4l",
+            "assetId": "img-1781701263682-2e4l",
+            "fileId": "file-59490251f75281a6",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-c6ce605dc3710a43",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701267118-x16a",
+            "assetId": "img-1781701267118-x16a",
+            "fileId": "file-2abe8a5649d5c258",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-ca7a85194bb116f8",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701281234-x6q7",
+            "assetId": "img-1781701281234-x6q7",
+            "fileId": "file-d76247ba3d340fbe",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-93b138f499c33fe0",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701285022-4yuu",
+            "assetId": "img-1781701285022-4yuu",
+            "fileId": "file-b8a1eaecf648c51b",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-77a915d0f1eaa6b0",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701288903-j7qk",
+            "assetId": "img-1781701288903-j7qk",
+            "fileId": "file-924652ff29eeb9ab",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701288903-j7qk-924652ff29ee.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          },
+          {
+            "refId": "ref-2ab87518d0a6345f",
+            "status": "ready",
+            "usage": "managed_image_asset",
+            "sourceKind": "managed_image_asset",
+            "sourcePath": "managedImageAssets.img-1781701291266-zj6l",
+            "assetId": "img-1781701291266-zj6l",
+            "fileId": "file-9f47e2cb1281b294",
+            "publicUrl": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+            "migrationAction": "convert_inline_base64",
+            "note": "已将内联图片转换为静态发布文件。"
+          }
+        ],
+        "migration": {
+          "strategyVersion": "phase5-static-media-migration-v1",
+          "sourceModel": "legacy_inline_and_local_resource_model",
+          "convertedInlineMediaCount": 20,
+          "reusedManagedAssetCount": 0,
+          "manualReviewCount": 0,
+          "warnings": [],
+          "manualActions": []
+        }
+      },
+      "apiBaseUrl": "https://game.nshuang.net/api",
+      "oneShotPayloadUrl": "https://game.nshuang.net/api/runtime/dzmm/release-22fb747e-1206-4af1-a0c3-34383564657f/payload?version=6.24",
+      "runtimeBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+      "runtimeDigest": "20259a5954ab5709c48d5134545e9301d3caf2e24227c42047663bcf05af7759"
+    },
+    "runtimeBinding": {
+      "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+      "runtimeFamily": "runtime-v1-lts",
+      "runtimeBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+      "runtimeDigest": "20259a5954ab5709c48d5134545e9301d3caf2e24227c42047663bcf05af7759",
+      "runtimeProtocolVersion": "server-turn-orchestration-v1",
+      "runtimeSnapshotVersion": "phase3-runtime-v1",
+      "saveFormatVersion": "phase4-persistence-v3",
+      "capabilities": [
+        "published-cloud-save",
+        "server-turn-orchestration",
+        "start-page-schema"
+      ],
+      "patchPolicy": "compatible_patch_auto_update",
+      "history": [
+        {
+          "toBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+          "reason": "release_created",
+          "changedByUserId": "cmmg2jan70001s8vcbcs9dctj",
+          "changedAt": 1782305504436
+        }
+      ],
+      "updatedAt": 1782305504436
+    },
+    "createdAt": 1782305504436
+  },
+  "version": {
+    "id": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+    "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+    "semver": "6.24",
+    "sourceDraftRevision": 52,
+    "snapshotHash": "26c88adfc181f90288134d1b",
+    "gameVersion": "6.24",
+    "projectFormatVersion": "phase6-editor-domain-snapshot-v2",
+    "runtimeSnapshotVersion": "phase3-runtime-v1",
+    "runtimeFamily": "runtime-v1-lts",
+    "capabilities": [
+      "published-cloud-save",
+      "server-turn-orchestration",
+      "start-page-schema"
+    ],
+    "createdByUserId": "cmmg2jan70001s8vcbcs9dctj",
+    "createdAt": 1782282533852
+  },
+  "factSource": {
+    "kind": "server_release_version",
+    "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+    "projectSlug": "project-7",
+    "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+    "versionSemver": "6.24",
+    "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+    "releaseTarget": "dzmm_publish",
+    "runtimeSource": "immutable_version",
+    "allowRuntimeReadDraft": false,
+    "runtimeFamily": "runtime-v1-lts",
+    "runtimeBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+    "runtimeDigest": "20259a5954ab5709c48d5134545e9301d3caf2e24227c42047663bcf05af7759",
+    "runtimeProtocolVersion": "server-turn-orchestration-v1"
+  },
+  "turnOrchestration": {
+    "protocolVersion": "server-turn-orchestration-v1",
+    "transport": "dzmm_completion_bridge",
+    "stageOrder": [
+      "pre_think",
+      "response_generation",
+      "final_analysis",
+      "memory_settlement",
+      "prompt_edit"
+    ],
+    "factSource": {
+      "kind": "server_release_version",
+      "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+      "projectSlug": "project-7",
+      "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+      "versionSemver": "6.24",
+      "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+      "releaseTarget": "dzmm_publish",
+      "runtimeSource": "immutable_version",
+      "allowRuntimeReadDraft": false,
+      "runtimeFamily": "runtime-v1-lts",
+      "runtimeBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+      "runtimeDigest": "20259a5954ab5709c48d5134545e9301d3caf2e24227c42047663bcf05af7759",
+      "runtimeProtocolVersion": "server-turn-orchestration-v1"
+    },
+    "fallbackPolicy": {
+      "preThinkFailure": "use_current_runtime_projection",
+      "responseGenerationFailure": "emit_minimum_narration",
+      "finalAnalysisFailure": "skip_state_mutation",
+      "memorySettlementFailure": "skip_memory_settlement",
+      "promptEditFailure": "skip_prompt_edit"
+    }
+  },
+  "runtimeBinding": {
+    "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+    "runtimeFamily": "runtime-v1-lts",
+    "runtimeBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+    "runtimeDigest": "20259a5954ab5709c48d5134545e9301d3caf2e24227c42047663bcf05af7759",
+    "runtimeProtocolVersion": "server-turn-orchestration-v1",
+    "runtimeSnapshotVersion": "phase3-runtime-v1",
+    "saveFormatVersion": "phase4-persistence-v3",
+    "capabilities": [
+      "published-cloud-save",
+      "server-turn-orchestration",
+      "start-page-schema"
+    ],
+    "patchPolicy": "compatible_patch_auto_update",
+    "history": [
+      {
+        "toBuildId": "runtime-v1-lts@1.0.0+20259a5954ab",
+        "reason": "release_created",
+        "changedByUserId": "cmmg2jan70001s8vcbcs9dctj",
+        "changedAt": 1782305504436
+      }
+    ],
+    "updatedAt": 1782305504436
+  },
+  "launchPayload": {
+    "storageKey": "better-ai-performance:published:dzmm_publish:release-22fb747e-1206-4af1-a0c3-34383564657f",
+    "platform": "dzmm",
+    "platformContext": {
+      "version": "runtime-platform-context-v1",
+      "appId": "better-ai-performance",
+      "platform": "dzmm",
+      "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+      "user": {
+        "kind": "anonymous",
+        "id": "published-player",
+        "displayName": "林澜"
+      },
+      "session": {
+        "storageNamespace": "better-ai-performance:published:dzmm_publish:release-22fb747e-1206-4af1-a0c3-34383564657f",
+        "scope": "play",
+        "source": "launch_payload",
+        "label": "堕落千金@6.24",
+        "metadata": {
+          "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+          "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+          "target": "dzmm_publish"
+        }
+      },
+      "metadata": {
+        "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+        "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+        "versionSemver": "6.24",
+        "target": "dzmm_publish"
+      }
+    },
+    "exportedAt": 1782305510802,
+    "runtimeSnapshot": {
+      "name": "堕落千金",
+      "scenes": {
+        "byId": {
+          "sc-1781229940283-shzm": {
+            "id": "sc-1781229940283-shzm",
+            "name": "云顶天阙",
+            "tags": [],
+            "order": 0,
+            "summary": "楚暮的位于市中心顶层的私人复式公寓",
+            "branches": [],
+            "createdAt": 1781229940283,
+            "updatedAt": 1782282237552,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [
+              "pc-1781103727830-orw1"
+            ],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781108177548-cnme"
+            ]
+          },
+          "sc-1781229943461-gt3r": {
+            "id": "sc-1781229943461-gt3r",
+            "name": "楚家别墅",
+            "tags": [],
+            "order": 1,
+            "summary": "",
+            "branches": [],
+            "createdAt": 1781229943461,
+            "updatedAt": 1782282240866,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781103727830-orw1",
+              "pc-1781108177548-cnme"
+            ]
+          },
+          "sc-1781229943689-kntg": {
+            "id": "sc-1781229943689-kntg",
+            "name": "林家的庄园别墅",
+            "tags": [],
+            "order": 2,
+            "summary": "林澜昔日的家，如今已被查封",
+            "branches": [],
+            "createdAt": 1781229943689,
+            "updatedAt": 1782282185376,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781108251485-l7qf",
+              "pc-1781108248400-d0td"
+            ]
+          },
+          "sc-1781229943854-x415": {
+            "id": "sc-1781229943854-x415",
+            "name": " 江城大学",
+            "tags": [],
+            "order": 3,
+            "summary": "-  江城大学宿舍",
+            "branches": [],
+            "createdAt": 1781229943854,
+            "updatedAt": 1782282435844,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781108231147-pw36",
+              "pc-1781108205705-73lu",
+              "pc-1781108146903-jth0",
+              "pc-1781108224336-00ui"
+            ]
+          },
+          "sc-1781229944046-efjq": {
+            "id": "sc-1781229944046-efjq",
+            "name": " 高级会所“MUSE”",
+            "tags": [],
+            "order": 4,
+            "summary": "",
+            "branches": [],
+            "createdAt": 1781229944046,
+            "updatedAt": 1782282393156,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781108054997-xdr7",
+              "pc-1781108248400-d0td",
+              "pc-1781106576625-ki4s",
+              "pc-1781108237552-yzju",
+              "pc-1781108244613-p6yv"
+            ]
+          },
+          "sc-1781229990516-zulz": {
+            "id": "sc-1781229990516-zulz",
+            "name": " “鎏光”爵士酒吧",
+            "tags": [],
+            "order": 5,
+            "summary": "",
+            "branches": [],
+            "createdAt": 1781229990516,
+            "updatedAt": 1782282398055,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781108251485-l7qf",
+              "pc-1781108054997-xdr7",
+              "pc-1781108244613-p6yv",
+              "pc-1781108237552-yzju",
+              "pc-1781106576625-ki4s"
+            ]
+          },
+          "sc-1781229997381-psju": {
+            "id": "sc-1781229997381-psju",
+            "name": "星辉酒店",
+            "tags": [],
+            "order": 6,
+            "summary": "",
+            "branches": [],
+            "createdAt": 1781229997381,
+            "updatedAt": 1782282275320,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781102727814-kue1",
+              "pc-1781106576625-ki4s",
+              "pc-1781108177548-cnme",
+              "pc-1781108231147-pw36",
+              "pc-1781108248400-d0td",
+              "pc-1781108251485-l7qf",
+              "pc-1781108473546-q2fb",
+              "pc-1781108205705-73lu",
+              "pc-1781108237552-yzju",
+              "pc-1781108054997-xdr7",
+              "pc-1781103727830-orw1",
+              "pc-1781103855551-1cgd",
+              "pc-1781108146903-jth0",
+              "pc-1781108224336-00ui",
+              "pc-1781108244613-p6yv",
+              "pc-1781108459951-dgit"
+            ]
+          },
+          "sc-1781230004081-xz13": {
+            "id": "sc-1781230004081-xz13",
+            "name": "无名之馆",
+            "tags": [],
+            "order": 7,
+            "summary": "需加密邀请函进入的地下艺术沙龙。所有宾客佩戴面具，禁止透露身份。这里是艺术、欲望与荷尔蒙的混合体，空气中弥漫着危险又诱人的气息",
+            "branches": [],
+            "createdAt": 1781230004081,
+            "updatedAt": 1782282283149,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230012336-0eve": {
+            "id": "sc-1781230012336-0eve",
+            "name": "绯色帷幕地下俱乐部",
+            "tags": [],
+            "order": 8,
+            "summary": "隐藏在城市歌剧院下的秘密俱乐部，入口需要口令和信物。",
+            "branches": [],
+            "createdAt": 1781230012336,
+            "updatedAt": 1782282303781,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230019280-gnqi": {
+            "id": "sc-1781230019280-gnqi",
+            "name": "遗忘当铺",
+            "tags": [],
+            "order": 9,
+            "summary": "隐藏在城市最古老街区深处的一家小店，没有招牌，仅在午夜后点亮一盏昏黄的灯笼。店主是个性别模糊、年龄不详的神秘人。这里不收金银，只“典当”记忆。你可以用一段痛苦的",
+            "branches": [],
+            "createdAt": 1781230019280,
+            "updatedAt": 1782282324435,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230025249-cp6w": {
+            "id": "sc-1781230025249-cp6w",
+            "name": "“镜城”废弃疗养院",
+            "tags": [],
+            "order": 10,
+            "summary": ":位于郊区山顶，因不明原因被废弃多年的精神疗养院。建筑风格诡异，内部保留着当年的设施，病历、束缚带散落一地。传说这里是城市所有阴暗秘密的汇集地，夜晚常有怪事发生",
+            "branches": [],
+            "createdAt": 1781230025249,
+            "updatedAt": 1782282358098,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230030891-nxn9": {
+            "id": "sc-1781230030891-nxn9",
+            "name": " 深渊拍卖会",
+            "tags": [],
+            "order": 11,
+            "summary": "一场只在暗网流传，针对极少数顶级富豪的秘密拍卖会。拍卖品不是古董或艺术品，而是“无法估价”的东西：一个人的忠诚、一个商业帝国的致命漏洞、一项无法公开的技术，甚至",
+            "branches": [],
+            "createdAt": 1781230030891,
+            "updatedAt": 1782282383559,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": [
+              "pc-1781103727830-orw1",
+              "pc-1781103855551-1cgd",
+              "pc-1781108054997-xdr7",
+              "pc-1781108177548-cnme",
+              "pc-1781108244613-p6yv",
+              "pc-1781108237552-yzju"
+            ]
+          },
+          "sc-1781230035027-apeg": {
+            "id": "sc-1781230035027-apeg",
+            "name": "白日梦猫咖",
+            "tags": [],
+            "order": 12,
+            "summary": "一家位于江城大学校门外商业城顶楼、拥有露天阳台的猫咪咖啡馆。阳光充足，绿植环绕，十几只慵懒的猫咪是这里真正的主人。客人们可以安静地喝咖啡、看书，或者与猫咪互动。",
+            "branches": [],
+            "createdAt": 1781230035027,
+            "updatedAt": 1782282409688,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230043893-bwi7": {
+            "id": "sc-1781230043893-bwi7",
+            "name": "深夜的海滨公路",
+            "tags": [],
+            "order": 13,
+            "summary": "一条远离市区的沿海公路，一侧是深邃的大海，一侧是沉睡的山峦。在午夜，这里几乎没有车辆，只有路灯投下寂寞的光晕和海浪拍岸的声响。无论是步行、骑行还是驾车，这里都提",
+            "branches": [],
+            "createdAt": 1781230043893,
+            "updatedAt": 1782282417808,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          },
+          "sc-1781230052262-vtzr": {
+            "id": "sc-1781230052262-vtzr",
+            "name": "夜昙别馆",
+            "tags": [],
+            "order": 14,
+            "summary": "“夜昙别馆”并非简单的俱乐部或会所，而是一个绝对私密的、会员制的女性感官美学殿堂。它存在的唯一目的，是为那些在男性主导的社会秩序中感到压抑、疲惫或寻求更高层次精神与肉体共鸣的顶层女性，提供一个彻底隔绝外界、可以安全探索、释放和享受纯粹女性之间情欲与爱意的乌托邦。\n        别馆隐藏于江城老城区的深处，是一座被高墙和茂密竹林围合起来的新中式庭院。入口没有招牌，只有一扇沉重的、需要特殊信物才能开启的铜木门。\n        踏入其中，外界的喧嚣便被彻底隔绝。空气中弥漫着清冷的夜来香、昂贵的沉香与女性身体天然的馥郁气息混合的独特味道。建筑主体由黑檀木和冰冷的汉白玉构成，庭院中心是一方引自山泉的“镜池”，水面如镜，倒映着天上的月与廊下的灯。\n        这里的服务人员全是经过严格挑选和训练的年轻女性，她们或是精通茶道花艺，或是擅长香薰按摩，举止优雅，守口如瓶。她们既是服务者，也是这个女性世界里的守护者与氛围的营造者。",
+            "branches": [],
+            "createdAt": 1781230052262,
+            "updatedAt": 1782282430163,
+            "backgrounds": [],
+            "description": "",
+            "characterIds": [
+              "pc-1781108459951-dgit",
+              "pc-1781108473546-q2fb"
+            ],
+            "isStartScene": false,
+            "rootBranchIds": [],
+            "backgroundAssetIds": [],
+            "backgroundBindings": [],
+            "allowedCharacterIds": []
+          }
+        },
+        "orderedIds": [
+          "sc-1781229940283-shzm",
+          "sc-1781229943461-gt3r",
+          "sc-1781229943689-kntg",
+          "sc-1781229943854-x415",
+          "sc-1781229944046-efjq",
+          "sc-1781229990516-zulz",
+          "sc-1781229997381-psju",
+          "sc-1781230004081-xz13",
+          "sc-1781230012336-0eve",
+          "sc-1781230019280-gnqi",
+          "sc-1781230025249-cp6w",
+          "sc-1781230030891-nxn9",
+          "sc-1781230035027-apeg",
+          "sc-1781230043893-bwi7",
+          "sc-1781230052262-vtzr"
+        ],
+        "startSceneId": "sc-1781229940283-shzm"
+      },
+      "source": "persisted",
+      "project": {
+        "id": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+        "name": "堕落千金",
+        "tags": [],
+        "author": "创作者",
+        "version": "6.24",
+        "checklist": [],
+        "createdAt": 1781102658590,
+        "updatedAt": 1782219709600,
+        "difficulty": "normal",
+        "description": "",
+        "capabilities": [
+          "published-cloud-save",
+          "server-turn-orchestration",
+          "start-page-schema"
+        ],
+        "runtimeFamily": "runtime-v1-lts",
+        "defaultSettings": {
+          "theme": "dark",
+          "language": "zh-CN",
+          "chatTheme": "dark",
+          "fontScale": 1,
+          "playerName": "林澜",
+          "displayMode": "novel",
+          "soundEnabled": true,
+          "openAIOverride": {
+            "apiKey": "",
+            "baseUrl": "https://api.openai.com/v1",
+            "enabled": false,
+            "modelId": "",
+            "agentModelIds": {},
+            "discoveredModelIds": [],
+            "agentDiscoveredModelIds": {},
+            "agentConnectionOverrides": {
+              "response_generation": {
+                "apiKey": "",
+                "baseUrl": "https://api.openai.com/v1"
+              }
+            }
+          },
+          "autoAdvanceSpeed": 50
+        },
+        "projectSettings": {
+          "runtimeAI": {
+            "sdkMode": "dzmm",
+            "parameters": {
+              "topP": 1,
+              "maxTokens": 800,
+              "temperature": 0.7,
+              "presencePenalty": 0,
+              "frequencyPenalty": 0
+            },
+            "agentConfigs": [],
+            "contextPolicy": {
+              "tokenBudget": 8192,
+              "messageWindow": 8,
+              "tokenBudgetEnabled": false
+            },
+            "openAICompatible": {
+              "baseUrl": ""
+            },
+            "agentModelPresets": [
+              {
+                "label": "预思考",
+                "agentId": "pre_think",
+                "connection": {
+                  "baseUrl": ""
+                },
+                "parameters": {
+                  "topP": 1,
+                  "maxTokens": 700,
+                  "temperature": 0.2,
+                  "presencePenalty": 0,
+                  "frequencyPenalty": 0
+                },
+                "description": "",
+                "playerAccess": {
+                  "allowCustomApiKey": false,
+                  "allowCustomBaseUrl": false,
+                  "allowCustomModel": false
+                },
+                "defaultModelId": "nalang-max-0826",
+                "allowedModelIds": [
+                  "nalang-max-0826"
+                ],
+                "modelSourceMode": "auto",
+                "autoDiscoveredModelIds": [],
+                "allowPlayerModelSelection": true
+              },
+              {
+                "label": "回复生成",
+                "agentId": "response_generation",
+                "connection": {
+                  "baseUrl": ""
+                },
+                "parameters": {
+                  "topP": 1,
+                  "maxTokens": 1200,
+                  "temperature": 0.7,
+                  "presencePenalty": 0,
+                  "frequencyPenalty": 0
+                },
+                "description": "",
+                "playerAccess": {
+                  "allowCustomApiKey": false,
+                  "allowCustomBaseUrl": false,
+                  "allowCustomModel": false
+                },
+                "defaultModelId": "nalang-max-0826",
+                "allowedModelIds": [
+                  "nalang-max-0826"
+                ],
+                "modelSourceMode": "auto",
+                "autoDiscoveredModelIds": [],
+                "allowPlayerModelSelection": true
+              },
+              {
+                "label": "最终分析",
+                "agentId": "final_analysis",
+                "connection": {
+                  "baseUrl": ""
+                },
+                "parameters": {
+                  "topP": 1,
+                  "maxTokens": 520,
+                  "temperature": 0.2,
+                  "presencePenalty": 0,
+                  "frequencyPenalty": 0
+                },
+                "description": "",
+                "playerAccess": {
+                  "allowCustomApiKey": false,
+                  "allowCustomBaseUrl": false,
+                  "allowCustomModel": false
+                },
+                "defaultModelId": "nalang-max-0826",
+                "allowedModelIds": [
+                  "nalang-max-0826"
+                ],
+                "modelSourceMode": "auto",
+                "autoDiscoveredModelIds": [],
+                "allowPlayerModelSelection": true
+              },
+              {
+                "label": "上下文压缩与长期记忆提取",
+                "agentId": "memory_settlement",
+                "connection": {
+                  "baseUrl": ""
+                },
+                "parameters": {
+                  "topP": 1,
+                  "maxTokens": 900,
+                  "temperature": 0.3,
+                  "presencePenalty": 0,
+                  "frequencyPenalty": 0
+                },
+                "description": "",
+                "playerAccess": {
+                  "allowCustomApiKey": false,
+                  "allowCustomBaseUrl": false,
+                  "allowCustomModel": false
+                },
+                "defaultModelId": "nalang-max-0826",
+                "allowedModelIds": [
+                  "nalang-max-0826"
+                ],
+                "modelSourceMode": "auto",
+                "autoDiscoveredModelIds": [],
+                "allowPlayerModelSelection": true
+              },
+              {
+                "label": "提示词修改",
+                "agentId": "prompt_edit",
+                "connection": {
+                  "baseUrl": ""
+                },
+                "parameters": {
+                  "topP": 1,
+                  "maxTokens": 700,
+                  "temperature": 0.2,
+                  "presencePenalty": 0,
+                  "frequencyPenalty": 0
+                },
+                "description": "",
+                "playerAccess": {
+                  "allowCustomApiKey": false,
+                  "allowCustomBaseUrl": false,
+                  "allowCustomModel": false
+                },
+                "defaultModelId": "nalang-max-0826",
+                "allowedModelIds": [
+                  "nalang-max-0826"
+                ],
+                "modelSourceMode": "auto",
+                "autoDiscoveredModelIds": [],
+                "allowPlayerModelSelection": true
+              }
+            ],
+            "playerOpenAIConfigPolicy": {
+              "allowPlayerOverride": false,
+              "allowCustomApiKey": false,
+              "allowCustomBaseUrl": false,
+              "allowCustomModel": false
+            }
+          },
+          "startScreen": {
+            "actions": {
+              "showContinue": true,
+              "showSettings": true,
+              "showSavePanel": true
+            },
+            "tagline": "AI-Native 驱动的沉浸式互动小说引擎。\n欢迎来到你的故事世界。启动页会优先读取当前项目、最近快照与可恢复会话。",
+            "moodTitle": "游玩说明",
+            "pageSchema": {
+              "meta": {
+                "migratedFrom": "legacy-start-screen",
+                "lastEditedVariant": "desktop"
+              },
+              "mobile": {
+                "theme": {
+                  "colors": {
+                    "text": "#ffffff",
+                    "overlay": "rgba(0,0,0,0.48)",
+                    "panelBg": "rgba(12,10,10,0.54)",
+                    "primary": "#D94665",
+                    "mutedText": "rgba(255,255,255,0.76)",
+                    "buttonText": "#ffffff"
+                  },
+                  "radius": {
+                    "panel": 36,
+                    "button": 40
+                  },
+                  "typography": {
+                    "bodyFont": "system",
+                    "titleFont": "system"
+                  }
+                },
+                "canvas": {
+                  "fitMode": "cover",
+                  "baseWidth": 1080,
+                  "baseHeight": 1920
+                },
+                "version": 1,
+                "components": [
+                  {
+                    "id": "background",
+                    "type": "Background",
+                    "props": {
+                      "alt": "堕落千金",
+                      "objectFit": "cover",
+                      "overlayColor": "rgba(0,0,0,0.56)",
+                      "objectPosition": {
+                        "mobile": {
+                          "xPercent": 50,
+                          "yPercent": 50
+                        },
+                        "desktop": {
+                          "xPercent": 50,
+                          "yPercent": 50
+                        }
+                      }
+                    },
+                    "style": {
+                      "opacity": 1
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 1080,
+                        "anchor": "top-left",
+                        "height": 1920,
+                        "xPercent": 0,
+                        "yPercent": 0
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 1080,
+                        "anchor": "top-left",
+                        "height": 1920,
+                        "xPercent": 0,
+                        "yPercent": 0
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "title",
+                    "type": "TitleText",
+                    "props": {
+                      "text": "堕落千金"
+                    },
+                    "style": {
+                      "align": "center",
+                      "color": "#ffffff",
+                      "opacity": 1,
+                      "fontSize": 104,
+                      "fontWeight": 800
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 840,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 11.111,
+                        "yPercent": 13.542
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 840,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 11.111,
+                        "yPercent": 13.542
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "subtitle",
+                    "type": "SubtitleText",
+                    "props": {
+                      "text": "AI-Native 驱动的沉浸式互动小说引擎。\n欢迎来到你的故事世界。启动页会优先读取当前项目、最近快照与可恢复会话。"
+                    },
+                    "style": {
+                      "align": "center",
+                      "color": "rgba(255,255,255,0.78)",
+                      "opacity": 1,
+                      "fontSize": 38
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 780,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 13.889,
+                        "yPercent": 23.698
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 780,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 13.889,
+                        "yPercent": 23.698
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "start-button",
+                    "type": "StartButton",
+                    "props": {
+                      "text": "新游戏",
+                      "action": "startGame"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "primary",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 39
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 39
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "continue-button",
+                    "type": "ContinueButton",
+                    "props": {
+                      "text": "继续游戏",
+                      "action": "continueGame"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 46
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 46
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "save-button",
+                    "type": "SaveButton",
+                    "props": {
+                      "text": "读取存档",
+                      "action": "openSavePanel"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 53
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 53
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "settings-button",
+                    "type": "SettingsButton",
+                    "props": {
+                      "text": "设置",
+                      "action": "openSettings"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 60
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 620,
+                        "anchor": "top-left",
+                        "height": 130,
+                        "xPercent": 21.296,
+                        "yPercent": 60
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "info-box",
+                    "type": "TextBox",
+                    "props": {
+                      "text": "1. 本游戏由 AI 驱动，所有的对话和情节均为实时生成。\n2. 请保持网络畅通以获得最佳体验。\n3. 游戏进度会自动保存，可以随时继续你的旅程。",
+                      "title": "游玩说明"
+                    },
+                    "style": {
+                      "color": "rgba(255,255,255,0.76)",
+                      "opacity": 1,
+                      "fontSize": 30,
+                      "paddingX": 36,
+                      "paddingY": 32,
+                      "borderRadius": 36,
+                      "backgroundColor": "rgba(12,10,10,0.54)"
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 760,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 14.815,
+                        "yPercent": 83.333
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 760,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 14.815,
+                        "yPercent": 83.333
+                      }
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "desktop": {
+                "theme": {
+                  "colors": {
+                    "text": "#ffffff",
+                    "overlay": "rgba(0,0,0,0.48)",
+                    "panelBg": "rgba(12,10,10,0.54)",
+                    "primary": "#D94665",
+                    "mutedText": "rgba(255,255,255,0.76)",
+                    "buttonText": "#ffffff"
+                  },
+                  "radius": {
+                    "panel": 20,
+                    "button": 16
+                  },
+                  "typography": {
+                    "bodyFont": "system",
+                    "titleFont": "system"
+                  }
+                },
+                "canvas": {
+                  "fitMode": "cover",
+                  "baseWidth": 1920,
+                  "baseHeight": 1080
+                },
+                "version": 1,
+                "components": [
+                  {
+                    "id": "background",
+                    "type": "Background",
+                    "props": {
+                      "alt": "堕落千金",
+                      "objectFit": "cover",
+                      "overlayColor": "rgba(0,0,0,0.56)",
+                      "objectPosition": {
+                        "mobile": {
+                          "xPercent": 50,
+                          "yPercent": 50
+                        },
+                        "desktop": {
+                          "xPercent": 50,
+                          "yPercent": 50
+                        }
+                      }
+                    },
+                    "style": {
+                      "opacity": 1
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 1920,
+                        "anchor": "top-left",
+                        "height": 1080,
+                        "xPercent": 0,
+                        "yPercent": 0
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 1920,
+                        "anchor": "top-left",
+                        "height": 1080,
+                        "xPercent": 0,
+                        "yPercent": 0
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "title",
+                    "type": "TitleText",
+                    "props": {
+                      "text": "堕落千金"
+                    },
+                    "style": {
+                      "align": "left",
+                      "color": "#ffffff",
+                      "opacity": 1,
+                      "fontSize": 76,
+                      "fontWeight": 800
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 760,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 10,
+                        "yPercent": 18
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 760,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 10,
+                        "yPercent": 18
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "subtitle",
+                    "type": "SubtitleText",
+                    "props": {
+                      "text": "AI-Native 驱动的沉浸式互动小说引擎。\n欢迎来到你的故事世界。启动页会优先读取当前项目、最近快照与可恢复会话。"
+                    },
+                    "style": {
+                      "align": "left",
+                      "color": "rgba(255,255,255,0.78)",
+                      "opacity": 1,
+                      "fontSize": 22
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 680,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 10,
+                        "yPercent": 32
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 680,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 10,
+                        "yPercent": 32
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "start-button",
+                    "type": "StartButton",
+                    "props": {
+                      "text": "新游戏",
+                      "action": "startGame"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "primary",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 43
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 43
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "continue-button",
+                    "type": "ContinueButton",
+                    "props": {
+                      "text": "继续游戏",
+                      "action": "continueGame"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 50
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 50
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "save-button",
+                    "type": "SaveButton",
+                    "props": {
+                      "text": "读取存档",
+                      "action": "openSavePanel"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 57
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 57
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "settings-button",
+                    "type": "SettingsButton",
+                    "props": {
+                      "text": "设置",
+                      "action": "openSettings"
+                    },
+                    "style": {
+                      "opacity": 1,
+                      "variant": "outline",
+                      "borderRadius": 16
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 64
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 280,
+                        "anchor": "top-left",
+                        "height": 54,
+                        "xPercent": 10,
+                        "yPercent": 64
+                      }
+                    },
+                    "visible": true
+                  },
+                  {
+                    "id": "info-box",
+                    "type": "TextBox",
+                    "props": {
+                      "text": "1. 本游戏由 AI 驱动，所有的对话和情节均为实时生成。\n2. 请保持网络畅通以获得最佳体验。\n3. 游戏进度会自动保存，可以随时继续你的旅程。",
+                      "title": "游玩说明"
+                    },
+                    "style": {
+                      "color": "rgba(255,255,255,0.76)",
+                      "opacity": 1,
+                      "fontSize": 14,
+                      "paddingX": 20,
+                      "paddingY": 18,
+                      "borderRadius": 20,
+                      "backgroundColor": "rgba(12,10,10,0.54)"
+                    },
+                    "layout": {
+                      "mobile": {
+                        "mode": "anchor",
+                        "width": 430,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 54.583,
+                        "yPercent": 74.074
+                      },
+                      "desktop": {
+                        "mode": "anchor",
+                        "width": 430,
+                        "anchor": "top-left",
+                        "height": "auto",
+                        "xPercent": 54.583,
+                        "yPercent": 74.074
+                      }
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "version": 1,
+              "activeVariant": "desktop"
+            },
+            "initialConfig": {
+              "fields": [
+                {
+                  "id": "initial-field-1782219624194-jeo03",
+                  "label": "自定义信息 1",
+                  "order": 0,
+                  "options": [
+                    {
+                      "id": "option-1782219707338-7bmvu",
+                      "label": "选项 1",
+                      "value": ""
+                    }
+                  ],
+                  "required": false,
+                  "inputType": "single_select",
+                  "insertion": {
+                    "kind": "prompt_position",
+                    "position": "after_character_entities"
+                  },
+                  "valueType": "text",
+                  "description": "",
+                  "placeholder": "",
+                  "valuePrefix": "",
+                  "valueSuffix": "",
+                  "promptTemplate": "{{label}}：{{value}}",
+                  "showInPlayerProfile": false
+                }
+              ],
+              "allowPlayerNameCustomization": true
+            },
+            "moodDescription": "1. 本游戏由 AI 驱动，所有的对话和情节均为实时生成。\n2. 请保持网络畅通以获得最佳体验。\n3. 游戏进度会自动保存，可以随时继续你的旅程。"
+          }
+        },
+        "characterRegistry": [
+          {
+            "id": "pc-1781102727814-kue1",
+            "name": "林澜",
+            "enabled": true,
+            "createdAt": 1781102727814,
+            "updatedAt": 1782219554896,
+            "description": ""
+          },
+          {
+            "id": "pc-1781103727830-orw1",
+            "name": "楚暮",
+            "enabled": true,
+            "createdAt": 1781103727829,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781103855551-1cgd",
+            "name": "陈婉",
+            "enabled": true,
+            "createdAt": 1781103855551,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781106576625-ki4s",
+            "name": "赵弈轩",
+            "enabled": true,
+            "createdAt": 1781106576625,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108054997-xdr7",
+            "name": "萧晔",
+            "enabled": true,
+            "createdAt": 1781108054997,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108146903-jth0",
+            "name": "苏亦辰",
+            "enabled": true,
+            "createdAt": 1781108146903,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108177548-cnme",
+            "name": "周言",
+            "enabled": true,
+            "createdAt": 1781108177548,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108205705-73lu",
+            "name": "唐心",
+            "enabled": true,
+            "createdAt": 1781108205705,
+            "updatedAt": 1781701561852,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108224336-00ui",
+            "name": "秦薇",
+            "enabled": true,
+            "createdAt": 1781108224336,
+            "updatedAt": 1781701552466,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108231147-pw36",
+            "name": "夏雨",
+            "enabled": true,
+            "createdAt": 1781108231147,
+            "updatedAt": 1781701556072,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108237552-yzju",
+            "name": "宋芷伊",
+            "enabled": true,
+            "createdAt": 1781108237552,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108244613-p6yv",
+            "name": "沈天宇",
+            "enabled": true,
+            "createdAt": 1781108244613,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108248400-d0td",
+            "name": "王老板",
+            "enabled": true,
+            "createdAt": 1781108248400,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108251485-l7qf",
+            "name": "刀疤强",
+            "enabled": true,
+            "createdAt": 1781108251485,
+            "updatedAt": 1781701259084,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108459951-dgit",
+            "name": "苏晚",
+            "enabled": true,
+            "createdAt": 1781108459951,
+            "updatedAt": 1781701507757,
+            "description": ""
+          },
+          {
+            "id": "pc-1781108473546-q2fb",
+            "name": "顾影",
+            "enabled": true,
+            "createdAt": 1781108473546,
+            "updatedAt": 1781701503852,
+            "description": ""
+          }
+        ]
+      },
+      "prompts": {
+        "byId": {},
+        "orderedIds": [],
+        "generalEntryIds": [],
+        "characterEntryIds": {},
+        "sceneEntryIds": {},
+        "statusEntryIds": [],
+        "endingEntryIds": []
+      },
+      "version": "phase3-runtime-v1",
+      "registry": [
+        {
+          "id": "pc-1781102727814-kue1",
+          "name": "林澜",
+          "enabled": true,
+          "createdAt": 1781102727814,
+          "updatedAt": 1782219554896,
+          "description": ""
+        },
+        {
+          "id": "pc-1781103727830-orw1",
+          "name": "楚暮",
+          "enabled": true,
+          "createdAt": 1781103727829,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781103855551-1cgd",
+          "name": "陈婉",
+          "enabled": true,
+          "createdAt": 1781103855551,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781106576625-ki4s",
+          "name": "赵弈轩",
+          "enabled": true,
+          "createdAt": 1781106576625,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108054997-xdr7",
+          "name": "萧晔",
+          "enabled": true,
+          "createdAt": 1781108054997,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108146903-jth0",
+          "name": "苏亦辰",
+          "enabled": true,
+          "createdAt": 1781108146903,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108177548-cnme",
+          "name": "周言",
+          "enabled": true,
+          "createdAt": 1781108177548,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108205705-73lu",
+          "name": "唐心",
+          "enabled": true,
+          "createdAt": 1781108205705,
+          "updatedAt": 1781701561852,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108224336-00ui",
+          "name": "秦薇",
+          "enabled": true,
+          "createdAt": 1781108224336,
+          "updatedAt": 1781701552466,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108231147-pw36",
+          "name": "夏雨",
+          "enabled": true,
+          "createdAt": 1781108231147,
+          "updatedAt": 1781701556072,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108237552-yzju",
+          "name": "宋芷伊",
+          "enabled": true,
+          "createdAt": 1781108237552,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108244613-p6yv",
+          "name": "沈天宇",
+          "enabled": true,
+          "createdAt": 1781108244613,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108248400-d0td",
+          "name": "王老板",
+          "enabled": true,
+          "createdAt": 1781108248400,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108251485-l7qf",
+          "name": "刀疤强",
+          "enabled": true,
+          "createdAt": 1781108251485,
+          "updatedAt": 1781701259084,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108459951-dgit",
+          "name": "苏晚",
+          "enabled": true,
+          "createdAt": 1781108459951,
+          "updatedAt": 1781701507757,
+          "description": ""
+        },
+        {
+          "id": "pc-1781108473546-q2fb",
+          "name": "顾影",
+          "enabled": true,
+          "createdAt": 1781108473546,
+          "updatedAt": 1781701503852,
+          "description": ""
+        }
+      ],
+      "createdAt": 1782282533852,
+      "plotGraph": {
+        "edges": [],
+        "nodes": [
+          {
+            "id": "plot-start-project-a66758cd-bdfd-4388-a347-d78b33298e1c",
+            "label": "故事开始",
+            "effects": [],
+            "enabled": true,
+            "nodeType": "start",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "createdAt": 1781102658696,
+            "updatedAt": 1782196143966,
+            "description": "",
+            "injectionPlan": {
+              "promptEntryIds": [],
+              "statusActionRuleIds": [],
+              "promptEntryMode": "deny_all",
+              "statusActionRuleMode": "deny_all"
+            },
+            "sceneConstraint": {
+              "allowedSceneIds": [
+                "sc-1781229940283-shzm",
+                "sc-1781229943461-gt3r",
+                "sc-1781229943689-kntg",
+                "sc-1781229943854-x415",
+                "sc-1781229944046-efjq",
+                "sc-1781229990516-zulz",
+                "sc-1781229997381-psju",
+                "sc-1781230004081-xz13",
+                "sc-1781230012336-0eve",
+                "sc-1781230019280-gnqi",
+                "sc-1781230025249-cp6w",
+                "sc-1781230030891-nxn9",
+                "sc-1781230035027-apeg",
+                "sc-1781230043893-bwi7",
+                "sc-1781230052262-vtzr"
+              ],
+              "preferredSceneId": "sc-1781229940283-shzm"
+            },
+            "openingNarration": "【旁白】：江城入秋后的第一场雨，落在艺术系教学楼外的梧桐叶上，像一层洗不干净的旧金箔。\n\n【旁白】：你撑着一把黑伞，从校园主道尽头走来。雨水顺着伞骨滴落，砸在鞋尖前的水洼里，倒映出一张过分安静的脸。\n\n【旁白】：在江城大学的大多数人眼里，林澜仍是那个家境优渥、气质出众、从不需要为现实低头的艺术系女生。没人知道林家的别墅已经被封，没人知道父亲的葬礼结束后，曾经庇护你的世界也一并坍塌。\n\n【旁白】：你没有负债，也不欠任何人什么。只是林氏倒了，父亲去世了，那些曾经围绕在你身边的善意、体面与安全感，像一夜之间被雨水冲散，只剩下你独自站在原地。\n\n【旁白】：教学楼大厅里人声嘈杂，学生们抱着画板、乐谱和雨伞匆匆经过。有人看见你，依旧会下意识放轻声音，目光里带着熟悉的羡慕与好奇。\n\n【女生甲】：你看，是林澜。她今天也太漂亮了吧……这种气质真的不像普通人。\n\n【女生乙】：听说她以前家里特别有钱，不过她好像一直挺低调的。\n\n【旁白】：那些议论像隔着玻璃传来，不够锋利，却足够提醒你：在所有人尚未察觉真相之前，你仍披着旧日荣光的影子。\n\n【旁白】：手机在掌心震动了一下。屏幕上弹出一条陌生短信，没有署名，只有一句话。\n\n【陌生短信】：林小姐，有些东西，不会因为林家倒了和你父亲去世就彻底消失。\n\n【旁白】：雨声忽然变得清晰。大厅外，一辆黑色轿车缓缓驶过校园门口，又很快消失在雨幕里。车窗漆黑，看不见里面坐着谁，也无法判断它是否与你有关。\n\n【旁白】：你抬眼望向远处。江城的高楼隐在灰白天色中，像一座巨大而沉默的迷宫。豪门旧识、校园生活、母亲所在的赵家、父亲留下的担子、那些尚未浮出水面的敌意与机会，都在雨雾深处若隐若现。\n\n【旁白】：今天本该只是一节普通的艺术史课。可你隐约明白，从这场雨开始，林澜已经不能再只做一个安静完成学业的大学生。",
+            "characterConstraint": {
+              "allowedCharacterIds": [
+                "pc-1781102727814-kue1",
+                "pc-1781103727830-orw1",
+                "pc-1781103855551-1cgd",
+                "pc-1781106576625-ki4s",
+                "pc-1781108054997-xdr7",
+                "pc-1781108146903-jth0",
+                "pc-1781108177548-cnme",
+                "pc-1781108205705-73lu",
+                "pc-1781108224336-00ui",
+                "pc-1781108231147-pw36",
+                "pc-1781108237552-yzju",
+                "pc-1781108244613-p6yv",
+                "pc-1781108248400-d0td",
+                "pc-1781108251485-l7qf",
+                "pc-1781108459951-dgit",
+                "pc-1781108473546-q2fb"
+              ]
+            },
+            "rewards": []
+          }
+        ]
+      },
+      "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+      "characters": {
+        "pc-1781102727814-kue1": {
+          "id": "pc-1781102727814-kue1",
+          "name": "林澜",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [
+            "status-1781230812918-otuo",
+            "status-1781232697410-4j6f",
+            "status-1781232835395-j2u5",
+            "status-1781232873262-26ym",
+            "status-1781232909361-0yku",
+            "status-1781232916458-yy3s"
+          ],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "林澜",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781701291266-zj6l",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701291266-zj6l-9f47e2cb1281.png",
+              "isPrimary": true,
+              "costumeTag": "睡衣",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": "白色丝绸睡衣"
+            },
+            {
+              "name": "林2",
+              "tags": [],
+              "order": 1,
+              "assetId": "img-1781701288903-j7qk",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701288903-j7qk-924652ff29ee.png",
+              "isPrimary": false,
+              "costumeTag": "针织毛衣",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": "米黄色毛绒针织毛衣，白色衣领"
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": true,
+          "advancedRoleSettings": []
+        },
+        "pc-1781103727830-orw1": {
+          "id": "pc-1781103727830-orw1",
+          "name": "楚暮",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781103855551-1cgd": {
+          "id": "pc-1781103855551-1cgd",
+          "name": "陈婉",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781106576625-ki4s": {
+          "id": "pc-1781106576625-ki4s",
+          "name": "赵弈轩",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108054997-xdr7": {
+          "id": "pc-1781108054997-xdr7",
+          "name": "萧晔",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108146903-jth0": {
+          "id": "pc-1781108146903-jth0",
+          "name": "苏亦辰",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108177548-cnme": {
+          "id": "pc-1781108177548-cnme",
+          "name": "周言",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108205705-73lu": {
+          "id": "pc-1781108205705-73lu",
+          "name": "唐心",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "520",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781311525160-bzc9",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781311525160-bzc9-48b27a58046b.png",
+              "isPrimary": true,
+              "costumeTag": "新服饰",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": ""
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108224336-00ui": {
+          "id": "pc-1781108224336-00ui",
+          "name": "秦薇",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "524",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781701263682-2e4l",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701263682-2e4l-59490251f752.png",
+              "isPrimary": true,
+              "costumeTag": "新服饰",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": ""
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108231147-pw36": {
+          "id": "pc-1781108231147-pw36",
+          "name": "夏雨",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "5202",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781701267118-x16a",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701267118-x16a-2abe8a5649d5.png",
+              "isPrimary": true,
+              "costumeTag": "新服饰",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": ""
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108237552-yzju": {
+          "id": "pc-1781108237552-yzju",
+          "name": "宋芷伊",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108244613-p6yv": {
+          "id": "pc-1781108244613-p6yv",
+          "name": "沈天宇",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108248400-d0td": {
+          "id": "pc-1781108248400-d0td",
+          "name": "王老板",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108251485-l7qf": {
+          "id": "pc-1781108251485-l7qf",
+          "name": "刀疤强",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108459951-dgit": {
+          "id": "pc-1781108459951-dgit",
+          "name": "苏晚",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "su wan",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781701285022-4yuu",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701285022-4yuu-b8a1eaecf648.png",
+              "isPrimary": true,
+              "costumeTag": "新服饰",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": ""
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        },
+        "pc-1781108473546-q2fb": {
+          "id": "pc-1781108473546-q2fb",
+          "name": "顾影",
+          "avatar": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+          "memory": "",
+          "persona": "",
+          "sceneIds": [
+            "sc-1781229940283-shzm",
+            "sc-1781229943461-gt3r",
+            "sc-1781229943689-kntg",
+            "sc-1781229943854-x415",
+            "sc-1781229944046-efjq",
+            "sc-1781229990516-zulz",
+            "sc-1781229997381-psju",
+            "sc-1781230004081-xz13",
+            "sc-1781230012336-0eve",
+            "sc-1781230019280-gnqi",
+            "sc-1781230025249-cp6w",
+            "sc-1781230030891-nxn9",
+            "sc-1781230035027-apeg",
+            "sc-1781230043893-bwi7",
+            "sc-1781230052262-vtzr"
+          ],
+          "description": "",
+          "statusBarIds": [],
+          "promptEntryIds": [],
+          "portraitOptions": [
+            {
+              "name": "gu ying",
+              "tags": [],
+              "order": 0,
+              "assetId": "img-1781701281234-x6q7",
+              "imageData": "/publish/release-22fb747e-1206-4af1-a0c3-34383564657f/6.24/release-22fb747e-1206-4af1-a0c3-34383564657f/assets/managed/img-1781701281234-x6q7-d76247ba3d34.png",
+              "isPrimary": true,
+              "costumeTag": "新服饰",
+              "expressionTag": "",
+              "expressionTags": [
+                ""
+              ],
+              "costumeDescription": ""
+            }
+          ],
+          "worldBookEntries": [],
+          "isPlayerCharacter": false,
+          "advancedRoleSettings": []
+        }
+      },
+      "statusBars": {
+        "byId": {
+          "status-1781230812918-otuo": {
+            "id": "status-1781230812918-otuo",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "eye",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 9v6\"/><path d=\"M9 12h6\"/></svg>"
+            },
+            "name": "破产暴露度",
+            "color": "#000000",
+            "order": 1,
+            "dataType": "percentage",
+            "description": "",
+            "currentValue": 10,
+            "defaultValue": 10,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232697410-4j6f": {
+            "id": "status-1781232697410-4j6f",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "sun",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/></svg>"
+            },
+            "name": "理智",
+            "color": "#ffffff",
+            "order": 1,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232835395-j2u5": {
+            "id": "status-1781232835395-j2u5",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart-crack",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"m12 13-1-3 2-2-2-2\"/></svg>"
+            },
+            "name": "堕落",
+            "color": "#A855F7",
+            "order": 2,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232873262-26ym": {
+            "id": "status-1781232873262-26ym",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：嘴",
+            "color": "#EF4444",
+            "order": 4,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232909361-0yku": {
+            "id": "status-1781232909361-0yku",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：胸",
+            "color": "#EF4444",
+            "order": 5,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232916458-yy3s": {
+            "id": "status-1781232916458-yy3s",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：小穴",
+            "color": "#EF4444",
+            "order": 6,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          }
+        },
+        "compactIds": [
+          "status-1781230812918-otuo",
+          "status-1781232697410-4j6f",
+          "status-1781232835395-j2u5",
+          "status-1781232873262-26ym",
+          "status-1781232909361-0yku",
+          "status-1781232916458-yy3s"
+        ],
+        "orderedIds": [
+          "status-1781230812918-otuo",
+          "status-1781232697410-4j6f",
+          "status-1781232835395-j2u5",
+          "status-1781232873262-26ym",
+          "status-1781232909361-0yku",
+          "status-1781232916458-yy3s"
+        ],
+        "characterBindings": {
+          "pc-1781102727814-kue1": [
+            "status-1781230812918-otuo",
+            "status-1781232697410-4j6f",
+            "status-1781232835395-j2u5",
+            "status-1781232873262-26ym",
+            "status-1781232909361-0yku",
+            "status-1781232916458-yy3s"
+          ]
+        }
+      },
+      "gameVersion": "6.24",
+      "capabilities": [
+        "published-cloud-save",
+        "server-turn-orchestration",
+        "start-page-schema"
+      ],
+      "runtimeFamily": "runtime-v1-lts",
+      "characterOrder": [
+        "pc-1781102727814-kue1",
+        "pc-1781103727830-orw1",
+        "pc-1781103855551-1cgd",
+        "pc-1781106576625-ki4s",
+        "pc-1781108054997-xdr7",
+        "pc-1781108146903-jth0",
+        "pc-1781108177548-cnme",
+        "pc-1781108205705-73lu",
+        "pc-1781108224336-00ui",
+        "pc-1781108231147-pw36",
+        "pc-1781108237552-yzju",
+        "pc-1781108244613-p6yv",
+        "pc-1781108248400-d0td",
+        "pc-1781108251485-l7qf",
+        "pc-1781108459951-dgit",
+        "pc-1781108473546-q2fb"
+      ],
+      "projectFormatVersion": "phase6-editor-domain-snapshot-v2",
+      "runtimeSnapshotVersion": "phase3-runtime-v1"
+    },
+    "initialRecord": {
+      "session": {
+        "id": "session-2cc3d332-2cfe-4a3f-a7e5-35064befe036",
+        "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+        "currentSceneId": "sc-1781229940283-shzm",
+        "currentSceneVisit": {
+          "sceneId": "sc-1781229940283-shzm",
+          "enteredAt": 1782305510790,
+          "enteredBySceneSwitch": false,
+          "playerMessageCount": 0
+        },
+        "currentBranchPath": [
+          "plot-start-project-a66758cd-bdfd-4388-a347-d78b33298e1c"
+        ],
+        "runtimePlotDrafts": [],
+        "statusBars": {
+          "status-1781230812918-otuo": {
+            "id": "status-1781230812918-otuo",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "eye",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 9v6\"/><path d=\"M9 12h6\"/></svg>"
+            },
+            "name": "破产暴露度",
+            "color": "#000000",
+            "order": 1,
+            "dataType": "percentage",
+            "description": "",
+            "currentValue": 10,
+            "defaultValue": 10,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232697410-4j6f": {
+            "id": "status-1781232697410-4j6f",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "sun",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/></svg>"
+            },
+            "name": "理智",
+            "color": "#ffffff",
+            "order": 1,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232835395-j2u5": {
+            "id": "status-1781232835395-j2u5",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart-crack",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"m12 13-1-3 2-2-2-2\"/></svg>"
+            },
+            "name": "堕落",
+            "color": "#A855F7",
+            "order": 2,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232873262-26ym": {
+            "id": "status-1781232873262-26ym",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：嘴",
+            "color": "#EF4444",
+            "order": 4,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232909361-0yku": {
+            "id": "status-1781232909361-0yku",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：胸",
+            "color": "#EF4444",
+            "order": 5,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          },
+          "status-1781232916458-yy3s": {
+            "id": "status-1781232916458-yy3s",
+            "max": 100,
+            "min": 0,
+            "icon": {
+              "kind": "preset-svg",
+              "label": "heart",
+              "value": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 20.5 4.8 13.9a4.7 4.7 0 0 1 0-6.9 4.9 4.9 0 0 1 7-.1l.2.2.2-.2a4.9 4.9 0 0 1 7 .1 4.7 4.7 0 0 1 0 6.9L12 20.5Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
+            },
+            "name": "身体开发度：小穴",
+            "color": "#EF4444",
+            "order": 6,
+            "dataType": "number",
+            "description": "",
+            "currentValue": 0,
+            "defaultValue": 0,
+            "showInCompact": true,
+            "boundCharacterIds": [
+              "pc-1781102727814-kue1"
+            ],
+            "modificationRules": []
+          }
+        },
+        "activePortraitByCharacterId": {
+          "pc-1781102727814-kue1": "img-1781701291266-zj6l",
+          "pc-1781108205705-73lu": "img-1781311525160-bzc9",
+          "pc-1781108224336-00ui": "img-1781701263682-2e4l",
+          "pc-1781108231147-pw36": "img-1781701267118-x16a",
+          "pc-1781108459951-dgit": "img-1781701285022-4yuu",
+          "pc-1781108473546-q2fb": "img-1781701281234-x6q7"
+        },
+        "knownCharacterIds": [
+          "pc-1781103727830-orw1"
+        ],
+        "knownSceneIds": [
+          "sc-1781229940283-shzm"
+        ],
+        "dynamicEntities": [],
+        "entityMemories": {
+          "global": [],
+          "characters": {},
+          "scenes": {},
+          "dynamicEntities": {}
+        },
+        "globalVariables": {},
+        "reachedEndingIds": [],
+        "messageCount": 1,
+        "totalTokensUsed": 0,
+        "startedAt": 1782305510790,
+        "lastActivityAt": 1782305510790,
+        "promptTriggerState": {
+          "turnCounter": 0,
+          "byTriggerId": {}
+        }
+      },
+      "settings": {
+        "playerName": "林澜",
+        "displayMode": "novel",
+        "theme": "dark",
+        "chatTheme": "dark",
+        "fontScale": 1,
+        "autoAdvanceSpeed": 50,
+        "soundEnabled": true,
+        "language": "zh-CN",
+        "openAIOverride": {
+          "enabled": false,
+          "apiKey": "",
+          "baseUrl": "",
+          "modelId": "",
+          "agentModelIds": {},
+          "discoveredModelIds": [],
+          "agentConnectionOverrides": {},
+          "agentDiscoveredModelIds": {}
+        }
+      },
+      "worldState": {
+        "knownCharacterIds": [
+          "pc-1781103727830-orw1"
+        ],
+        "knownSceneIds": [
+          "sc-1781229940283-shzm"
+        ],
+        "dynamicEntities": [],
+        "entityMemories": {
+          "global": [],
+          "characters": {},
+          "scenes": {},
+          "dynamicEntities": {}
+        },
+        "latestRecognition": null,
+        "recognitionHistory": [],
+        "updatedAt": 1782305510791
+      },
+      "platformContext": {
+        "version": "runtime-platform-context-v1",
+        "appId": "better-ai-performance",
+        "platform": "dzmm",
+        "projectId": "project-92b8e140-75d8-473c-9b40-ab51e3d83f92",
+        "user": {
+          "kind": "anonymous",
+          "id": "published-player",
+          "displayName": "林澜"
+        },
+        "session": {
+          "storageNamespace": "better-ai-performance:published:dzmm_publish:release-22fb747e-1206-4af1-a0c3-34383564657f",
+          "scope": "play",
+          "source": "launch_payload",
+          "label": "堕落千金@6.24",
+          "metadata": {
+            "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+            "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+            "target": "dzmm_publish"
+          }
+        },
+        "metadata": {
+          "releaseId": "release-22fb747e-1206-4af1-a0c3-34383564657f",
+          "versionId": "version-5d001bed-ea5e-4d3d-a186-139b659a37c1",
+          "versionSemver": "6.24",
+          "target": "dzmm_publish"
+        }
+      },
+      "messages": [
+        {
+          "id": "msg-bb44a1b1-5076-4b68-946c-90e9df50132e",
+          "role": "assistant",
+          "text": "【旁白】：江城入秋后的第一场雨，落在艺术系教学楼外的梧桐叶上，像一层洗不干净的旧金箔。\n\n【旁白】：你撑着一把黑伞，从校园主道尽头走来。雨水顺着伞骨滴落，砸在鞋尖前的水洼里，倒映出一张过分安静的脸。\n\n【旁白】：在江城大学的大多数人眼里，林澜仍是那个家境优渥、气质出众、从不需要为现实低头的艺术系女生。没人知道林家的别墅已经被封，没人知道父亲的葬礼结束后，曾经庇护你的世界也一并坍塌。\n\n【旁白】：你没有负债，也不欠任何人什么。只是林氏倒了，父亲去世了，那些曾经围绕在你身边的善意、体面与安全感，像一夜之间被雨水冲散，只剩下你独自站在原地。\n\n【旁白】：教学楼大厅里人声嘈杂，学生们抱着画板、乐谱和雨伞匆匆经过。有人看见你，依旧会下意识放轻声音，目光里带着熟悉的羡慕与好奇。\n\n【女生甲】：你看，是林澜。她今天也太漂亮了吧……这种气质真的不像普通人。\n\n【女生乙】：听说她以前家里特别有钱，不过她好像一直挺低调的。\n\n【旁白】：那些议论像隔着玻璃传来，不够锋利，却足够提醒你：在所有人尚未察觉真相之前，你仍披着旧日荣光的影子。\n\n【旁白】：手机在掌心震动了一下。屏幕上弹出一条陌生短信，没有署名，只有一句话。\n\n【陌生短信】：林小姐，有些东西，不会因为林家倒了和你父亲去世就彻底消失。\n\n【旁白】：雨声忽然变得清晰。大厅外，一辆黑色轿车缓缓驶过校园门口，又很快消失在雨幕里。车窗漆黑，看不见里面坐着谁，也无法判断它是否与你有关。\n\n【旁白】：你抬眼望向远处。江城的高楼隐在灰白天色中，像一座巨大而沉默的迷宫。豪门旧识、校园生活、母亲所在的赵家、父亲留下的担子、那些尚未浮出水面的敌意与机会，都在雨雾深处若隐若现。\n\n【旁白】：今天本该只是一节普通的艺术史课。可你隐约明白，从这场雨开始，林澜已经不能再只做一个安静完成学业的大学生。",
+          "sceneId": "sc-1781229940283-shzm",
+          "createdAt": 1782305510791
+        }
+      ],
+      "novelState": null,
+      "contextTreeId": null,
+      "contextState": null,
+      "debugPanel": {
+        "enabled": true,
+        "runtimeInfo": null,
+        "currentTurn": null,
+        "turnDebugHistory": [],
+        "updatedAt": 1782305512422
+      },
+      "bootstrapSource": "direct_access",
+      "createdAt": 1782305510790,
+      "updatedAt": 1782305510790,
+      "timeline": {
+        "activeBranchId": "game-branch-3055d831-a4d1-442b-992b-ce01e13980ed",
+        "activeCheckpointId": "game-checkpoint-b1414838-df7c-4bf8-add0-8d85eb47ed60",
+        "checkpoints": {},
+        "branches": {},
+        "createdAt": 1782305510801,
+        "updatedAt": 1782305510801
+      }
+    }
+  }
+}
